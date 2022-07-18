@@ -16,8 +16,8 @@ const JPEG_QUALITY = parseInt(process.env['INPUT_JPEGQUALITY']) || 80
 const PNG_QUALITY = parseInt(process.env['INPUT_PNGQUALITY']) || 80
 const WEBP_QUALITY = parseInt(process.env['INPUT_WEBPQUALITY']) || 80
 const IGNORE_PATHS = process.env['INPUT_IGNOREPATHS']
-  ? process.env['INPUT_IGNOREPATHS'].split(',')
-  : ['node_modules/**']
+//   ? process.env['INPUT_IGNOREPATHS'].split(',')
+//   : ['node_modules/**']
 const COMPRESS_ONLY = process.env['INPUT_COMPRESSONLY'] === 'true'
 const JPEG_PROGRESSIVE = process.env['INPUT_JPEGPROGRESSIVE'] === 'true'
 
